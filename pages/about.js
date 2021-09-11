@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import styles from "../styles/About.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 function About() {
   return (
@@ -27,28 +28,46 @@ function About() {
               years, traveling the world, witnessing different lives and getting
               to know myself better, I decided to make a career change for a
               calmer and more peaceful life and become a software developer.
-              I've found that software development is a more enjoyable for me
-              and suits better for my character.
+              I&apos;ve found that software development is a more enjoyable for
+              me and suits better for my character.
             </p>
-            <img loading="lazy" src="/images/benin.jpg" alt="" />
+            <Image
+              width={2500}
+              height={2000}
+              loading="lazy"
+              src="/images/benin.jpg"
+              alt=""
+            />
           </div>
           <div>
             <p>
               As my path, I decided to go for the front-end web development
-              firstly. I've learned HTML, CSS, JavaScript and ReactJS.
-              Currently, I've been making projects with what I have learned and
-              learning new subjects.
+              firstly. I&apos;ve learned HTML, CSS, JavaScript and ReactJS.
+              Currently, I&apos;ve been making projects with what I have learned
+              and learning new subjects.
             </p>
-            <img loading="lazy" src="/images/codephoto.jpg" alt="" />
+            <Image
+              width={1500}
+              height={1000}
+              loading="lazy"
+              src="/images/codephoto.jpg"
+              alt=""
+            />
           </div>
           <div>
             <p>
               Beyond working life, I think establishing good friendships with
               nice people is one of the most valuable things in my life. So,
-              don't hesitate to say a "HELLO" to me, even if you have no
-              business with me.
+              don&apos;t hesitate to say a &quot;HELLO&quot; to me, even if you
+              have no business with me.
             </p>
-            <img loading="lazy" src="/images/ivorycoastblurybg.png" alt="" />
+            <Image
+              width={1500}
+              height={1500}
+              loading="lazy"
+              src="/images/ivorycoastblurybg.png"
+              alt=""
+            />
           </div>
         </section>
       </article>
