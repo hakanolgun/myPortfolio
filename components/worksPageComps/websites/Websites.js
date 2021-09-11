@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
+import Image from "next/image";
 
 function Websites() {
   return (
@@ -9,7 +10,9 @@ function Websites() {
         <li className={styles.cards_item}>
           <div className={styles.card}>
             <div className={styles.card_image}>
-              <img loading="lazy" src="/images/grid-hilalay-giris-renk.webp" />
+              <Image
+                width={400}
+                height={260} loading="lazy" src="/images/grid-hilalay-giris-renk.webp" />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>Yachting Website</h2>
@@ -28,7 +31,9 @@ function Websites() {
         <li className={styles.cards_item}>
           <div className={styles.card}>
             <div className={styles.card_image}>
-              <img loading="lazy" src="/images/samsunpdr-renk.webp" />
+              <Image
+                width={400}
+                height={260} loading="lazy" src="/images/samsunpdr-renk.webp" />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>Psychologist Website</h2>
@@ -45,7 +50,9 @@ function Websites() {
         <li className={styles.cards_item}>
           <div className={styles.card}>
             <div className={styles.card_image}>
-              <img loading="lazy" src="/images/psikolog_tema.png" />
+              <Image
+                width={400}
+                height={260} loading="lazy" src="/images/psikolog_tema.png" />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>

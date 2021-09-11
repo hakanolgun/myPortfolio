@@ -22,11 +22,11 @@
 .navbar h1 {
   font-size: 2rem;
 }
-.backHomeArrow {
+
+.linkComp {
   position: absolute;
-  top: 1.5rem;
-  left: 1.5rem;
-  width: 40px;
+  top: 2rem;
+  left: 2rem;
   cursor: pointer;
 }
 
@@ -37,9 +37,12 @@
   .navbar h1 {
     font-size: 3rem;
   }
-  .backHomeArrow {
+  .linkComp {
+    position: absolute;
     top: 3rem;
     left: 3rem;
+  }
+  .linkComp img {
     width: 50px;
   }
 }

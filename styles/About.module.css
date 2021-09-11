@@ -47,7 +47,6 @@
   border-radius: 10px;
 }
 
-
 @media screen and (min-width: 800px) {
   .aboutPageContainer {
     background-color: #020b16;
@@ -101,7 +100,6 @@
   .section div:nth-child(2) > p {
     order: 0;
   }
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -110,19 +108,20 @@
   }
 }
 
-.backHomeArrow {
+.linkComp {
   position: absolute;
-  top: 1.5rem;
-  left: 1.5rem;
-  width: 40px;
+  top: 2rem;
+  left: 2rem;
   cursor: pointer;
 }
 
 @media screen and (min-width: 800px) {
-  .backHomeArrow {
+  .linkComp {
     position: absolute;
     top: 3rem;
     left: 3rem;
+  }
+  .linkComp img {
     width: 50px;
   }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from ".//styles.module.css";
+import Image from "next/image";
 
 function JsandReact() {
   return (
@@ -9,7 +10,12 @@ function JsandReact() {
         <li className={styles.cards_item}>
           <div className={styles.card}>
             <div className={styles.card_image}>
-              <img loading="lazy" src="/images/ecommercepage.png" />
+              <Image
+                width={400}
+                height={260}
+                loading="lazy"
+                src="/images/ecommercepage.png"
+              />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>E-Commerce App</h2>
@@ -26,7 +32,12 @@ function JsandReact() {
         <li className={styles.cards_item}>
           <div className={styles.card}>
             <div className={styles.card_image}>
-              <img loading="lazy" src="/images/react-weather.png" />
+              <Image
+                width={400}
+                height={260}
+                loading="lazy"
+                src="/images/react-weather.png"
+              />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>Weather Forecast App</h2>
@@ -43,7 +54,12 @@ function JsandReact() {
         <li className={styles.cards_item}>
           <div className={styles.card}>
             <div className={styles.card_image}>
-              <img loading="lazy" src="/images/crypto.png" />
+              <Image
+                width={400}
+                height={260}
+                loading="lazy"
+                src="/images/crypto.png"
+              />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>Crypto Currency App</h2>
@@ -60,7 +76,12 @@ function JsandReact() {
         <li className={styles.cards_item}>
           <div className={styles.card}>
             <div className={styles.card_image}>
-              <img loading="lazy" src="/images/flipcard.png" />
+              <Image
+                width={400}
+                height={260}
+                loading="lazy"
+                src="/images/flipcard.png"
+              />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>Flip Card Game</h2>
@@ -77,7 +98,12 @@ function JsandReact() {
         <li className={styles.cards_item}>
           <div className={styles.card}>
             <div className={styles.card_image}>
-              <img loading="lazy" src="/images/gamephoto.png" />
+              <Image
+                width={400}
+                height={260}
+                loading="lazy"
+                src="/images/gamephoto.png"
+              />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>Rock Paper Game</h2>
@@ -96,7 +122,12 @@ function JsandReact() {
         <li className={styles.cards_item}>
           <div className={styles.card}>
             <div className={styles.card_image}>
-              <img loading="lazy" src="/images/reduxnotesapp.png" />
+              <Image
+                width={400}
+                height={260}
+                loading="lazy"
+                src="/images/reduxnotesapp.png"
+              />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>Notes App</h2>

@@ -5,17 +5,22 @@ import Image from "next/image";
 import styles from "../../styles/Post.module.css";
 import Link from "next/link";
 const { API_URL } = process.env;
+
 function PostPage({ post }) {
   const md = new MarkdownIt();
   const htmlContent = md.render(post.content);
   return (
     <article className={styles.postPageContainer}>
       <Link href="/posts">
-        <img
-          className={styles.backHomeArrow}
-          src="/images/arrow-left-circle.svg"
-          alt="left arrow symbol"
-        />
+        <a className={styles.linkComp}>
+          <Image
+            className={styles.backHomeArrow}
+            src="/images/arrow-left-circle.svg"
+            alt="left arrow symbol"
+            width={40}
+            height={40}
+          />
+        </a>
       </Link>
       <h1 className={styles.postTitle}>{post.title}</h1>
       <p className={styles.postDescription}>{post.description}</p>

@@ -3,6 +3,7 @@ import axios from "axios";
 import styles from "../../styles/Posts.module.css";
 import Link from "next/link";
 import PostCard from "../../components/blogComps/postcard/PostCard";
+import Image from "next/image";
 
 function Posts({ posts }) {
   function renderPostCards() {
@@ -15,12 +16,15 @@ function Posts({ posts }) {
     <div className={styles.blogPageContainer}>
       <nav className={styles.navbar}>
         <Link href="/">
-          <img
-            className={styles.backHomeArrow}
-            src="/images/arrow-left-circle.svg"
-            alt="left arrow symbol"
-            loading="lazy"
-          />
+          <a className={styles.linkComp}>
+            <Image
+              src="/images/arrow-left-circle.svg"
+              alt="left arrow symbol"
+              loading="lazy"
+              width={40}
+              height={40}
+            />
+          </a>
         </Link>
         <h1>My Blog</h1>
       </nav>
