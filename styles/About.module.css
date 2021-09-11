@@ -1,0 +1,128 @@
+.aboutPageContainer {
+  background-color: var(--homebackground);
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0rem;
+}
+.h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+  padding-top: 2rem;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+.section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section div * {
+  margin-block: 2rem;
+}
+
+.section div p {
+  line-height: 125%;
+  letter-spacing: 0.5px;
+  padding-inline: 0.5rem;
+}
+
+.section div img {
+  max-width: 280px;
+  border-radius: 10px;
+}
+
+
+@media screen and (min-width: 800px) {
+  .aboutPageContainer {
+    background-color: #020b16;
+    min-height: 100vh;
+    color: white;
+  }
+
+  .article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+  }
+  .h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: 2rem;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 1rem 2rem;
+  }
+  .section div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .section div * {
+    margin-block: 2rem;
+  }
+
+  .section div p {
+    line-height: 125%;
+    padding-inline: 0.5rem;
+    font-size: 1.1rem;
+  }
+
+  .section div img {
+    max-width: 280px;
+    border-radius: 10px;
+  }
+  .section div:nth-child(odd) > p {
+    order: 1;
+  }
+  .section div:nth-child(2) > p {
+    order: 0;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .article {
+    max-width: 1000px;
+  }
+}
+
+.backHomeArrow {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  width: 40px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .backHomeArrow {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    width: 50px;
+  }
+}

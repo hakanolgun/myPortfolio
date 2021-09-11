@@ -1,0 +1,53 @@
+.postPageContainer {
+  background-color: var(--homebackground);
+  padding: 3rem 2rem;
+  line-height: 135%;
+  color: whitesmoke;
+  max-width: 100vw;
+}
+.postTitle {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+.postDescription {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+.postDescription + div {
+  display: flex;
+  justify-content: center;
+}
+.postDescription + div img {
+  height: auto;
+}
+
+.postMarkdownSection {
+  padding-block: 2rem;
+}
+.postMarkdownSection p {
+  padding-block: 1rem;
+}
+.backHomeArrow {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  width: 40px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+  .postPageContainer {
+    padding: 3rem 20rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .backHomeArrow {
+    top: 3rem;
+    left: 3rem;
+    width: 50px;
+  }
+}

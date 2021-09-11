@@ -1,0 +1,44 @@
+.homeLinksContainer {
+  color: white;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0rem;
+}
+.homeLinksContainer a {
+  margin-inline: 0.4rem;
+  border: 1px solid #dee2e6;
+  border-radius: 50%;
+  padding: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeLinksContainer img {
+  filter: invert(90%) sepia(7%) saturate(652%) hue-rotate(198deg) brightness(81%) contrast(86%);}
+
+.homeLinksContainer a:hover {
+  border-color: white;
+}
+.homeLinksContainer a:hover > img {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(293deg)
+    brightness(104%) contrast(98%);
+}
+
+@media screen and (min-width: 840px) {
+  .homeLinksContainer {
+    padding: 2rem 0rem;
+  }
+  .homeLinksContainer a {
+    margin-inline: 0.7rem;
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+  }
+
+  .homeLinksContainer img {
+    width: 35px;
+    height: 35px;
+  }
+}

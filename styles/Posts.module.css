@@ -1,0 +1,45 @@
+.blogPageContainer {
+  background-color: var(--homebackground);
+  color: white;
+  min-height: 100vh;
+  position: relative;
+}
+
+.blogPageContainer main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 3rem;
+  padding: 1rem;
+}
+.navbar {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar h1 {
+  font-size: 2rem;
+}
+.backHomeArrow {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  width: 40px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .navbar {
+    height: 11rem;
+  }
+  .navbar h1 {
+    font-size: 3rem;
+  }
+  .backHomeArrow {
+    top: 3rem;
+    left: 3rem;
+    width: 50px;
+  }
+}
