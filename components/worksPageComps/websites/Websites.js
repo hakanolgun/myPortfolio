@@ -12,7 +12,11 @@ function Websites() {
             <div className={styles.card_image}>
               <Image
                 width={400}
-                height={260} loading="lazy" src="/images/grid-hilalay-giris-renk.webp" />
+                height={260}
+                loading="lazy"
+                src="/images/grid-hilalay-giris-renk.webp"
+                alt="arrow logo"
+              />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>Yachting Website</h2>
@@ -33,7 +37,11 @@ function Websites() {
             <div className={styles.card_image}>
               <Image
                 width={400}
-                height={260} loading="lazy" src="/images/samsunpdr-renk.webp" />
+                height={260}
+                loading="lazy"
+                src="/images/samsunpdr-renk.webp"
+                alt="psychologist website photo"
+              />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>Psychologist Website</h2>
@@ -52,7 +60,11 @@ function Websites() {
             <div className={styles.card_image}>
               <Image
                 width={400}
-                height={260} loading="lazy" src="/images/psikolog_tema.png" />
+                height={260}
+                loading="lazy"
+                src="/images/psikolog_tema.png"
+                alt="wordpress theme photo"
+              />
             </div>
             <div className={styles.card_content}>
               <h2 className={styles.card_title}>

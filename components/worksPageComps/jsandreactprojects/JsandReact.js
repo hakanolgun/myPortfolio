@@ -15,6 +15,7 @@ function JsandReact() {
                 height={260}
                 loading="lazy"
                 src="/images/ecommercepage.png"
+                alt="arrow logo"
               />
             </div>
             <div className={styles.card_content}>
@@ -37,6 +38,7 @@ function JsandReact() {
                 height={260}
                 loading="lazy"
                 src="/images/react-weather.png"
+                alt="weather app photo"
               />
             </div>
             <div className={styles.card_content}>
@@ -59,6 +61,7 @@ function JsandReact() {
                 height={260}
                 loading="lazy"
                 src="/images/crypto.png"
+                alt="crypto app photo"
               />
             </div>
             <div className={styles.card_content}>
@@ -81,6 +84,7 @@ function JsandReact() {
                 height={260}
                 loading="lazy"
                 src="/images/flipcard.png"
+                alt="flipcard game photo"
               />
             </div>
             <div className={styles.card_content}>
@@ -103,6 +107,7 @@ function JsandReact() {
                 height={260}
                 loading="lazy"
                 src="/images/gamephoto.png"
+                alt="rock paper game photo"
               />
             </div>
             <div className={styles.card_content}>
@@ -127,6 +132,7 @@ function JsandReact() {
                 height={260}
                 loading="lazy"
                 src="/images/reduxnotesapp.png"
+                alt="notes app photo"
               />
             </div>
             <div className={styles.card_content}>
